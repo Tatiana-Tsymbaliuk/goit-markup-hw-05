@@ -43,7 +43,7 @@
     <section class="main-title">
       <div class="container">
         <h1 class="main-caption">ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="main-btn">Замовити послугу</button>
+        <button type="button" class="main-btn" data-modal-open>Замовити послугу</button>
       </div>
     </section>
     <section class="section about-container">
@@ -386,6 +386,16 @@
     </section>
   </footer>
 
+<!----------------- Modal window----------------->
+<div class="backdrop" data-modal>
+  <div class="modal"><button class="modal-btn" data-modal-close>
+<svg class="modal-icon" width="18" height="18">
+  <use href="./images/icons.svg#icon-close-black"></use>
+</svg>
+  </button>
+</div>
+</div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
